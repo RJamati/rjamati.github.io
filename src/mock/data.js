@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Rukhsar Jamati | Software Developer Portfolio', // e.g: 'Name | Developer'
+  title: 'Rukhsar Jamati | Software Developer based in Leicester, UK', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description:
     'Rukhsar Jamati - A Software Developer based in Leicester, United Kingdom. Specialising in Mobile Android & iOS App Development', // e.g: Welcome to my website
