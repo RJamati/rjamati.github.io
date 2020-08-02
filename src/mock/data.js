@@ -18,9 +18,9 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'profile.jpeg',
   paragraphOne:
-    'A graduate with a Bachelors in Information Technology, based in Leicester, United Kingdom.',
+    'A graduate with a Bachelors of Engineering in Information Technology, based in Leicester, United Kingdom.',
   paragraphTwo:
     'Hobbies include reading, gaming, watching TV & movies but my main passion is Mobile app development for Android and iOS.',
   paragraphThree:
