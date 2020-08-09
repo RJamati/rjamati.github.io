@@ -27,17 +27,17 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-88acde617c30d2336727.js"
+    "url": "webpack-runtime-bcb2fd582c0d76b17a46.js"
   },
   {
     "url": "framework-fd2b85530eec85104a39.js"
   },
   {
-    "url": "app-cab9852d9a105b711c56.js"
+    "url": "app-5ca8031b847f34d9d7a0.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "66c14e3349d3996f24915c55093fcc75"
+    "revision": "02fbf3b36fa42f0b2e189c4193100c61"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-0097d26fbd474b34ff9b.js"
@@ -48,14 +48,14 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "2e008d438321421a971ed01283412147"
+    "revision": "f6ecd0096310c61dea613d4573ed349f"
   },
   {
     "url": "polyfill-d06486d78b0d3a46b835.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "9d54a6d92aba64b433266b82beaac059"
+    "revision": "2311309cde7512c8b2221019aa3b9539"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -143,12 +143,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/RJamati.github.io`), ``)
+  pathname = pathname.replace(new RegExp(`^/rjamati.github.io`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/RJamati.github.io/app-cab9852d9a105b711c56.js`))) {
+  if (!resources || !(await caches.match(`/rjamati.github.io/app-5ca8031b847f34d9d7a0.js`))) {
     return await fetch(event.request)
   }
 
@@ -161,7 +161,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/RJamati.github.io/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/rjamati.github.io/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
