@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: '/RJamati.github.io',
+  pathPrefix: '/rjamati.github.io',
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
