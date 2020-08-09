@@ -32,7 +32,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'android-tip-calculator.png',
     title: 'Android Tip Calculator',
     info:
       'An intuitive and easy to use Tip Calculator app which allows the user to calculate the tip and also split the bill between a number of people.',
@@ -43,7 +43,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'android-expense-manager.jpg',
     title: 'Android Expense Manager',
     info:
       'The app allows the user to create a local account. Once logged in, the user enters their monthly income, they will then need to enter their expenses. The user can also create different categories for their expenses or income.',
@@ -54,7 +54,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'movie-booking.jpg',
     title: 'ASP.NET Online Movie Ticket Booking System',
     info:
       'This Movie Ticket Booking System was my final year project for my university course. Built from scratch using ASP .NET.',
@@ -65,18 +65,18 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'RBDIMS.jpg',
     title: 'ASP.NET Registration of Birth & Death Information Management System',
     info:
       'This web app was the final year project for my College Diploma course. It was built using ASP .NET. The app was designed for the scenario of a local council who requires a system in order to enter residents births and deaths as well as generate certificates for them.',
     info2:
       'The user must login in order to view the admin panel, read and write permissions can be granted from the main admin account. Once logged in a user can fill in forms to create birth or death records, with these records created there is an option to export to PDF.',
     url: '',
-    repo: 'https://github.com/RJamati/ASP.NET-RBDIMS',
+    repo: '',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'ios-weather.jpg',
     title: 'iOS Weather App',
     info:
       'This weather app was built as part of my iOS app development learning. Created using Xcode and Swift.',
@@ -87,7 +87,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'ios-xylophone.jpg',
     title: 'iOS Xylophone App',
     info:
       'This app was built as a coding exercise whilst learning iOS app development. It was built using Xcode and Swift.',
