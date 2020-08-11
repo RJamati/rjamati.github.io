@@ -92,7 +92,7 @@ export const projectsData = [
     info:
       'This app was built as a coding exercise whilst learning iOS app development. It was built using Xcode and Swift.',
     info2:
-      'The app features a xylophone in which the taps the keys and the corrosponding notes will sound. Building this app taught important concepts such as audio playback and storyboard designing.',
+      'The app features a xylophone in which the user taps the keys and the corrosponding notes will sound. Building this app taught important concepts such as audio playback and storyboard designing.',
     url: '',
     repo: 'https://github.com/RJamati/iOS-Xylophone-app',
   },
