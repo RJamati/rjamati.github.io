@@ -81,7 +81,7 @@ export const projectsData = [
     info:
       'This weather app was built as part of my iOS app development learning. Created using Xcode and Swift.',
     info2:
-      'The app is dynamic and uses the users location in order to fetch the current weather from OpenWeather. The user can also search for the weather in other locations. The app also changes icons and styles according to the weather and time.',
+      'The app is dynamic and uses the users location in order to fetch the current weather from the OpenWeather API. The user can also search for the weather in other locations. The app also changes icons and styles according to the weather and time.',
     url: '',
     repo: 'https://github.com/RJamati/iOS-weather-app',
   },
@@ -92,7 +92,7 @@ export const projectsData = [
     info:
       'This app was built as a coding exercise whilst learning iOS app development. It was built using Xcode and Swift.',
     info2:
-      'The app features a xylophone in which the user taps the keys and the corrosponding notes will sound. Building this app taught important concepts such as audio playback and storyboard designing.',
+      'The app features a xylophone in which the user taps the keys and the corrosponding notes will sound. Building this app taught me important concepts such as audio playback and storyboard designing.',
     url: '',
     repo: 'https://github.com/RJamati/iOS-Xylophone-app',
   },
