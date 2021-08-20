@@ -43,7 +43,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'android-tip-calculator.png',
+    img: 'wordpress-fxdfitness.jpg',
     title: 'Wordpress - FXDFitness',
     info:
       'This website was for a gym and built using WordPress. The custom theme uses Advanced Custom Fields (ACF) in order to create bespoke, editable blocks for the client.',
@@ -54,7 +54,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'android-tip-calculator.png',
+    img: 'wordpress-northperformance.jpg',
     title: 'Wordpress - North Performance',
     info:
       'This website was for a Personal Trainer, built using WordPress. This was a custom built theme with most content manageable from the CMS.',
@@ -65,14 +65,14 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'android-tip-calculator.png',
+    img: 'android-weather.jpg',
     title: 'Android - Weather App',
     info:
       'The Android weather app was built using Android Studio with Java.',
     info2:
       'The app makes use of the built in GPS and Network Location in order to fetch the current weather information from the OpenWeather API.',
     url: '',
-    repo: '',
+    repo: 'https://github.com/RJamati/Android-Weather-App',
   },
   {
     id: nanoid(),
